@@ -8,37 +8,51 @@
 
 El presente repositorio contiene el producto final del Sprint 2 de nuesto _bootcamp_ en Laboratoria.
 
-* El trabajo fue realizado en grupo de tres personas.
+* El trabajo fue realizado por el squad _Bohemian Code_.
 
 * Se nos pide poner en práctica nuestros conocimientos de html, css y javascript.
 
-* Se realizó entre las fechas del Martes 28 de Noviembre del 2017 al Jueves 30 de Noviembre del 2017.
+* Se realizó entre las fechas del Martes 28 de Noviembre del 2017 al Lunes 4 de Diciembre del 2017.
 
-> Estas son las indicaciones que se nos dieron:
+
+## Requerimientos
+
+Nuestra versión final cumple con los requerimientos solicitados:
+
+* El total de estudiantes presentes por sede y generación.
+* El porcentaje de deserción de estudiantes.
+* La cantidad de estudiantes que superan la meta de puntos en promedio de todos los sprints cursados.
+* El porcentaje que representa el dato anterior en relación al total de estudiantes.
+* El Net Promoter Score (NPS) promedio de los sprints cursados.
+* La cantidad y el porcentaje que representa el total de estudiantes que superan la meta de puntos técnicos en promedio y por sprint.
+* La cantidad y el porcentaje que representa el total de estudiantes que superan la meta de puntos de HSE en promedio y por sprint.
+* El porcentaje de estudiantes satisfechas con la experiencia de Laboratoria.
+* La puntuación promedio de l@s profesores.
+* La puntuación promedio de l@s jedi masters.
 
 
 ## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Creamos una organización en Github con nombre _PROYECTO FINAL DATA DASHBOARD_, en donde se unió el proyecto de los dos grupos que conforman el squad _Bohemian code_.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+2. Se realizó un fork de este repositorio.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+3. Luego cada una procedió a clonar ese fork en su máquina respectiva.
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+4. Nuestro proyecto esta basado en este diseño en combinación con nuestro primer sketch.
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+5. Se mostró el siguiente sketch al usuario final (Training Manager) para obtener un primer feedback.
 
-> ## Integrantes:
+
+
+## Integrantes
 
 * Rocci Escobar
 
 * Gabriela Mamani
 
 * Lucero Hospina
+
+* Nélida Quispe
+
+* Yanira Arenazas

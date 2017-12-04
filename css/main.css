@@ -16,7 +16,6 @@ header {
 }
 
 .logo-header {
-  /*margin: 10px 0;*/
   width: 300px;
 }
 
@@ -56,20 +55,6 @@ header {
 .language a:hover {
   color: #fff;
 }
-
-/*.box-nav2 img {
-  width: 6em;
-  height: 6em;
-  border-radius: 50%;
-  padding: 0.1em;
-  border: 1px solid #f7b617;
-}
-
-.box-nav2 ul li {
-  display: inline;
-  list-style: none;
-  margin: 0 10px;
-}*/
 
 /*Agregando POINTER a todos los iconos*/
 .fa {
@@ -213,12 +198,10 @@ padding: 0.25em;
   width: 32%;
   box-shadow: 4px 4px 4px #c4c4c4;
   margin-right: 1%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .graphic {
-  width: 100%;
-  /*height: 200px;*/
   margin-top: 150px;
 }
 
@@ -260,28 +243,6 @@ padding: 0.25em;
 #dropout-percent {
   color: red;
 }
-/*.box1 p:last-child {
-  font-size: 1em;
-  padding-top: 1em;
-}
-
-.box2 p:first-child {
-  font-size: 1em;
-  padding-top: 1em;
-}
-
-.box2 {
-  background-color: #ED6C44;
-}
-
-.box2 p:last-child {
-  font-size: 0.7em;
-  height: 30px;;
-}*/
-
-/*.box3 p {
-  font-size: 1em;
-}*/
 
 .texTbox {
   font-size: .8em;
@@ -389,7 +350,7 @@ padding: 0.25em;
   background-color: #f7b617;
 }
 
-/*---------> Gaby agrega clases <---------*/
+/*--------->  Clases generales <---------*/
 .show {
   display:block;
 }
@@ -403,7 +364,6 @@ padding: 0.25em;
   background: #f5eded;
   width: 90%;
   margin: 0 auto;
-  /*outline: 1px solid red;*/
   overflow: auto;
   padding: 1em;
 }

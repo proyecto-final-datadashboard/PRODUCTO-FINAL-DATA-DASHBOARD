@@ -37,7 +37,7 @@ window.addEventListener('load', function() {
       }
     }
     // Sacamos el porcentaje de estudiantes que desertaron
-    dropout = Math.round((dropout / totalStudents) * 100) + '%';
+    var dropoutPercent = ((dropout / totalStudents) * 100).toFixed(1) + '%';
 
     // Total de estudiantes en su contenedor
     var enrollmentStudents = document.getElementById('box-enrollment');
@@ -45,7 +45,7 @@ window.addEventListener('load', function() {
 
     // Porcentaje de estudiantes que desertaron en su contenedor
     var dropoutPorcentaje = document.getElementById('dropout-percent');
-    dropoutPorcentaje.textContent = dropout;
+    dropoutPorcentaje.textContent = dropoutPercent;
 
     // ----------------> ACHIEVEMENT <----------------
     var studentMeetTarget = 0;
@@ -279,6 +279,8 @@ window.addEventListener('load', function() {
       ]);
 
       var options = {'title': 'Rating otorgado por las alumnas a sus Jedi Master',
+        'width': 500,
+        'height': 300,
         'is3D': true};
 
       var chart = new google.visualization.PieChart(document.getElementById('jedi-chart'));
@@ -341,8 +343,8 @@ window.addEventListener('load', function() {
       data5.addColumn('string', 'name');
       data5.addColumn('number', 'students');
       data5.addRows([
-        ['Desertoras', (parseInt(dropout) / 100) * totalStudents],
-        ['Asistiendo a clases', totalStudents - ((parseInt(dropout) / 100) * totalStudents)],
+        ['Desertoras', dropout],
+        ['Asistiendo a clases', totalStudents - dropout],
       ]);
 
       var options5 = {'title': 'Alumnas que asisten a clases vs alumnas que han desertado',
@@ -419,8 +421,8 @@ window.addEventListener('load', function() {
             totalTech += arrayStudents[i]['sprints'][j]['score']['tech'];
             totalHse += arrayStudents[i]['sprints'][j]['score']['hse'];
           }
-          percentTech.textContent = totalTech / arrayStudents[i]['sprints'].length;
-          percentLife.textContent = totalHse / arrayStudents[i]['sprints'].length;;
+          percentTech.textContent = (totalTech / arrayStudents[i]['sprints'].length).toFixed(1);
+          percentLife.textContent = (totalHse / arrayStudents[i]['sprints'].length).toFixed(1);
         } else {
           percentTech.textContent = 'No hay datos suficientes';
           percentLife.textContent = 'No hay datos suficientes';
